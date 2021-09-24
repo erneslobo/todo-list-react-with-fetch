@@ -11,3 +11,15 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.container {
+    width: 500px;
+}
+
+.hide {
+    visibility: hidden;
+  }
+  
+li:hover .hide {
+    visibility: visible;
+  }
